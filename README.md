@@ -14,8 +14,5 @@
 5. Click on "Save image" button to save files for your font.
 6. Open "fontinfo.dbs" (`textures/fonts` for Classic & `fonts` for Redline) with any text editor and change the parameters to make your font suitable in game.
 
-## TODO:
-- Remake the character width calculation (It's not so good for some fonts, need to think about it...)
-
 ## 3rd-party plugins
 The application is using [Costura.Fody](https://github.com/Fody/Costura/) to compile all resources into a single executable file.
