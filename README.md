@@ -1,6 +1,8 @@
 # CDFontCreator
 ![image](https://github.com/St1ngLeR/CDFontCreator/assets/63962772/1f483452-c58a-44f4-8f12-bd995e97070a)
 ## Introduction
+**Attention!** To run the application, you need to install [.NET Desktop Runtime 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+
 **CDFontCreator** is an application to create fonts for Crashday. The application is remade from internal (dev-only) tool "FontCreator" or a.k.a. "PROJECT1". Supposedly this tool on Delphi wasn't intended to be public and was forgotten by the devs in `textures/fonts` folder. This remade version is done in C# with WinForms and has some advantages compared to it's original version from 2004-2005 by devs:
 - Saving three necessary font files prepared for ingame use (*.tga - font texture, *.tex - shader, *.wid - characters width)
 - Ability to render font texture from 512x512 to 4096x4096
