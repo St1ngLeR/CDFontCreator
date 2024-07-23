@@ -130,13 +130,13 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "512", "1024", "2048", "4096" });
             comboBox1.Location = new Point(220, 145);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(75, 23);
             comboBox1.TabIndex = 6;
-            comboBox1.Text = "1024";
             // 
             // radioButton1
             // 

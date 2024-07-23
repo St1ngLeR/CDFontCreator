@@ -8,7 +8,7 @@ namespace CDFontCreator
         public Form1()
         {
             InitializeComponent();
-
+            comboBox1.SelectedIndex = 1;
             foreach (FontFamily font in FontFamily.Families)
             {
                 listBox1.Items.Add(font.Name);
